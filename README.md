@@ -28,7 +28,7 @@ Inspect a single PVC by:
 **Example:**
 
 ```bash
-./inspectpvc aap-controller-backup-claim
+./inspectpvc aap-controller-backup-claim --namespace <ns>
 ```
 
 This prints all directories under `/backups` for that specific PVC.
@@ -47,7 +47,7 @@ A wrapper script that:
 **Usage:**
 
 ```bash
-./inspect-all-backups.sh
+./inspect-all-backups.sh --namespace <ns>
 ```
 
 **Example output:**
